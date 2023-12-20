@@ -64,7 +64,7 @@ const StudentTable = () => {
         showAlert(`Error deleting student: ${error.message}`);
       });
   };
-//fetch all students
+
   useEffect(() => {
     axios
       .get('http://kiwisolution1.somee.com/api/Students')
